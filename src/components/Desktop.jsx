@@ -11,12 +11,12 @@ const Desktop = () => {
         <p>CV.pdf</p>
        </article>
        <article>
-        <div className='githubIcon'></div>
-        <p>Github</p>
+        <div className='notepadIcon'></div>
+        <p>Readme.txt</p>
        </article>
        <article>
-        <div className='githubIcon'></div>
-        <p>Github</p>
+        <div className='linkedinIcon'></div>
+        <p>Linkedin</p>
        </article>
     </div>
   )
