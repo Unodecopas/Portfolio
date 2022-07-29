@@ -2,6 +2,7 @@
 @import url("./styles/_Desktop.scss");
 @import url("./styles/_Notepad.scss");
 @import url("./styles/_WindowsBar.scss");
+@import url("./styles/_MenuBar.scss");
 
 :root {
   --primary-blue: #2257d5;
@@ -20,6 +21,9 @@ body {
 a, a:visited{
   color: inherit;
   text-decoration: none;
+}
+li{
+  list-style: none;
 }
 .portfolio {
   width: 100vw;

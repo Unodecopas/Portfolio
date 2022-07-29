@@ -3,4 +3,10 @@
     height: 100%;
     border: 2px solid var(--primary-blue);
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    & .content{
+        padding: .5rem 1rem;
+        color: black;
+    }
 }
