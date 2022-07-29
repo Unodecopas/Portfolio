@@ -1,4 +1,5 @@
 import React from 'react'
+import Clock from './Clock'
 
 const Taskbar = () => {
   return (
@@ -8,7 +9,9 @@ const Taskbar = () => {
             start
         </div>
         <div className="items">Items</div>
-        <div className='icons'>Icons</div>
+        <div className='icons'>
+          <Clock />
+        </div>
     </div>
   )
 }
