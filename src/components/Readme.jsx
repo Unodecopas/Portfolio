@@ -1,11 +1,12 @@
 import React from 'react'
 import MenuBar from './MenuBar'
 import WindowsBar from './WindowsBar'
+import logo from '../img/icons/notepadIcon.png'
 
 const Readme = () => {
   return (
     <div className='notepad'>
-        <WindowsBar title='Block de Notas - README.txt (Solo lectura)'/>
+        <WindowsBar title='Block de Notas - README.txt (Solo lectura)' logo={logo}/>
         <MenuBar />
         <div className="content">
             <p>!Bienvenido a mi PORTFOLIO!</p>
