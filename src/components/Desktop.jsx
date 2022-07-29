@@ -1,4 +1,5 @@
 import React from 'react'
+import cv from '../data/cv.pdf'
 const Desktop = () => {
   return (
     <div className="desktop">
@@ -9,8 +10,10 @@ const Desktop = () => {
         </a>
        </article>
        <article>
+        <a href={cv}>
         <div className='pdfIcon'></div>
         <p>CV.pdf</p>
+        </a>
        </article>
        <article>
         <div className='notepadIcon'></div>
