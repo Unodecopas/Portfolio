@@ -11,7 +11,7 @@ const Desktop = () => {
         </a>
        </article>
        <article>
-        <a href={cv}>
+        <a href={cv} target='blank'>
           <div className='pdfIcon'></div>
           <p>CV.pdf</p>
         </a>
