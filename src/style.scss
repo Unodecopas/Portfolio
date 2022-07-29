@@ -1,0 +1,36 @@
+@import url("./styles/_Taskbar.scss");
+@import url("./styles/_Desktop.scss");
+
+:root {
+  --primary-blue: #2257d5;
+  --ligth-blue: #1299e9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma;
+  color: white;
+}
+.portfolio {
+  width: 100vw;
+  height: 100vh;
+  border: 20px solid grey;
+  & .border {
+    width: 100%;
+    height: 100%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+  & main {
+    flex-grow: 1;
+    background-image: url("./img/background.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
