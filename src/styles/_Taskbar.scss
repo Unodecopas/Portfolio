@@ -4,8 +4,17 @@
   & .start-menu {
     display: flex;
     background-color: green;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     place-items: center;
+    gap: 10px;
+    & .xplogo {
+      background-image: url(../img/icons/xpIcon.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 100%;
+      width: 20px;
+    }
   }
   & .items {
     display: flex;
