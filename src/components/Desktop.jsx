@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import cv from '../data/cv.pdf'
 const Desktop = () => {
   return (
@@ -16,8 +17,10 @@ const Desktop = () => {
         </a>
        </article>
        <article>
+        <Link to='readme'>
           <div className='notepadIcon'></div>
           <p>Readme.txt</p>
+        </Link>
        </article>
        <article>
         <a href="https://linkedin.com/in/jegallardo" target='blank'>

@@ -1,0 +1,22 @@
+.windows-bar{
+    width: 100%;
+    background-color: var(--primary-blue);
+    border-bottom: 2px solid var(--ligth-blue);
+    border-top: 2px solid var(--ligth-blue);
+    display: flex;
+    padding: 0.5rem 1rem;
+    place-items: center;
+    & h2{
+        flex-grow: 1;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    & .btn-close{
+        height: 100%;
+        background-color: red;
+        border: 1px solid white;
+        color: white;
+        padding: .5rem 1rem;
+        border-radius: 8px;
+    }
+}
