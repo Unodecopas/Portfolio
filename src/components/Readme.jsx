@@ -20,6 +20,7 @@ const Readme = ({ setTaskbarApp }) => {
             <p>Te dejo una pequeña lista, por si no te das cuenta de alguno:</p>
             <ul>
                 <li> - Clock</li>
+                <li> - Calculator</li>
             </ul>
             <p>AVISO!!! El portfolio aún está en desarrollo, si ves que algo no funciona como debería probablemente esté en desarrollo</p>
         </div>
