@@ -44,5 +44,10 @@ li{
     background-repeat: no-repeat;
     display: flex;
     place-items: center;
+    justify-content: center;
   }
+}
+.calculator {
+  border: 2px solid var(--primary-blue);
+  border-radius: 0 0 10px 10px;
 }

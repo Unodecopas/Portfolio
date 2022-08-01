@@ -14,37 +14,27 @@
     text-align: center;
     justify-content: center;
     place-items: center;
-    & .githubIcon {
-      background-image: url("../img/icons/githubIcon.png");
+    & .githubIcon, .pdfIcon, .notepadIcon, .linkedinIcon, .calculatorIcon{
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       width: 50px;
       height: 50px;
+    }
+    & .githubIcon {
+      background-image: url("../img/icons/githubIcon.png");
     }
     & .pdfIcon {
       background-image: url("../img/icons/pdfIcon.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      width: 50px;
-      height: 50px;
     }
     & .notepadIcon {
       background-image: url("../img/icons/notepadIcon.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      width: 50px;
-      height: 50px;
     }
     & .linkedinIcon {
       background-image: url("../img/icons/linkedinIcon.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      width: 50px;
-      height: 50px;
+    }
+    & .calculatorIcon {
+      background-image: url("../img/icons/calcIcon.png");
     }
   }
 }

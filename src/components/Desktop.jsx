@@ -10,23 +10,32 @@ const Desktop = () => {
           <p>Github</p>
         </a>
        </article>
+
        <article>
         <a href={cv} target='blank'>
           <div className='pdfIcon'></div>
           <p>CV.pdf</p>
         </a>
        </article>
+
        <article>
         <Link to='readme'>
           <div className='notepadIcon'></div>
           <p>Readme.txt</p>
         </Link>
        </article>
+
        <article>
         <a href="https://linkedin.com/in/jegallardo" target='blank'>
           <div className='linkedinIcon'></div>
           <p>Linkedin</p>
         </a>
+       </article>
+       <article>
+        <Link to='/calc'>
+          <div className='calculatorIcon'></div>
+          <p>Calculator</p>
+        </Link>
        </article>
     </div>
   )

@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MenuBar from './MenuBar'
 import WindowsBar from './WindowsBar'
 import logo from '../img/icons/notepadIcon.png'
 
-const Readme = () => {
+const Readme = ({ setTaskbarApp }) => {
+  useEffect(() => {
+    setTaskbarApp('README.txt - NOTEPAD')
+    return () => setTaskbarApp()
+  }, [])
   return (
     <div className='notepad'>
         <WindowsBar title='Block de Notas - README.txt (Solo lectura)' logo={logo}/>
