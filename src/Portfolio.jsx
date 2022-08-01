@@ -13,7 +13,7 @@ function App () {
       <div className='border'>
         <main>
           <Routes>
-            <Route path='/' element={<Desktop />} />
+            <Route path='/*' element={<Desktop />} />
             <Route path='/readme' element={<Readme setTaskbarApp={setTaskbarApp}/>} />
             <Route path='/calc' element={<Calculator setTaskbarApp={setTaskbarApp}/>} />
           </Routes>
