@@ -14,7 +14,7 @@
     text-align: center;
     justify-content: center;
     place-items: center;
-    & .githubIcon, .pdfIcon, .notepadIcon, .linkedinIcon, .calculatorIcon, .cardsIcon{
+    & .githubIcon, .pdfIcon, .notepadIcon, .linkedinIcon, .calculatorIcon, .cardsIcon, .notesIcon{
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -40,6 +40,9 @@
     }
     & .cardsIcon {
       background-image: url('../img/icons/cardsIcon.png');
+    }
+    & .notesIcon {
+      background-image: url('../img/icons/notesIcon.png');
     }
   }
 }

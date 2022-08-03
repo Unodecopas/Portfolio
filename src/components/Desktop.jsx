@@ -33,6 +33,13 @@ const Desktop = () => {
        </article>
 
        <article>
+        <a href="https://grand-pastelito-638c86.netlify.app/" target='blank'>
+          <div className='notesIcon'></div>
+          <p>Notas Web</p>
+        </a>
+       </article>
+
+       <article>
         <a href="https://youthful-payne-a5cff6.netlify.app/" target='blank'>
           <div className='cardsIcon'></div>
           <p>Memory Cards!</p>
