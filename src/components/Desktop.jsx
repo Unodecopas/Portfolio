@@ -31,6 +31,14 @@ const Desktop = () => {
           <p>Linkedin</p>
         </a>
        </article>
+
+       <article>
+        <a href="https://youthful-payne-a5cff6.netlify.app/" target='blank'>
+          <div className='cardsIcon'></div>
+          <p>Memory Cards!</p>
+        </a>
+       </article>
+
        <article>
         <Link to='/calc'>
           <div className='calculatorIcon'></div>
