@@ -21,6 +21,7 @@ const Readme = ({ setTaskbarApp }) => {
             <ul>
                 <li> - Clock</li>
                 <li> - Calculator</li>
+                <li> - Juego de Memoria: Encuentra pareja de cartas</li>
             </ul>
             <p>AVISO!!! El portfolio aún está en desarrollo, si ves que algo no funciona como debería probablemente esté en desarrollo</p>
         </div>
