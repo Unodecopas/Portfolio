@@ -5,7 +5,7 @@ const Desktop = () => {
   return (
     <div className="desktop">
        <article>
-        <a href="https:github.com/unodecopas" target='blank'>
+        <a href="https://github.com/unodecopas" target='blank'>
           <div className='githubIcon'></div>
           <p>Github</p>
         </a>
