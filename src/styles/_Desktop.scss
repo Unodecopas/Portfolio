@@ -8,13 +8,21 @@
   gap: 1rem;
   padding: 0.5rem;
   text-shadow: -1px 0 rgba(0, 0, 0, 0.6), 0 1px black, 1px 0 black, 0 -1px black;
-  & article, article a {
+  & article,
+  article a {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     place-items: center;
-    & .githubIcon, .pdfIcon, .notepadIcon, .linkedinIcon, .calculatorIcon, .cardsIcon, .notesIcon{
+    & .githubIcon,
+    .pdfIcon,
+    .notepadIcon,
+    .linkedinIcon,
+    .calculatorIcon,
+    .cardsIcon,
+    .notesIcon,
+    .netflixIcon {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -39,10 +47,13 @@
       height: 50px;
     }
     & .cardsIcon {
-      background-image: url('../img/icons/cardsIcon.png');
+      background-image: url("../img/icons/cardsIcon.png");
     }
     & .notesIcon {
-      background-image: url('../img/icons/notesIcon.png');
+      background-image: url("../img/icons/notesIcon.png");
+    }
+    & .netflixIcon {
+      background-image: url("../img/icons/netflixIcon.png");
     }
   }
 }

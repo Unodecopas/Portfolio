@@ -52,6 +52,12 @@ const Desktop = () => {
           <p>Calculator</p>
         </Link>
        </article>
+       <article>
+        <Link to='/netflix'>
+          <div className='netflixIcon'></div>
+          <p>Netflix</p>
+        </Link>
+       </article>
     </div>
   )
 }
