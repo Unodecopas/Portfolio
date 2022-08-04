@@ -23,6 +23,7 @@ const Readme = ({ setTaskbarApp }) => {
                 <li> - Calculator</li>
                 <li> - Juego de Memoria: Encuentra pareja de cartas</li>
                 <li> - Web de Notas</li>
+                <li> - Netflix clone</li>
             </ul>
             <p>AVISO!!! El portfolio aún está en desarrollo, si ves que algo no funciona como debería probablemente esté en desarrollo</p>
         </div>
