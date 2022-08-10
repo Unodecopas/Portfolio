@@ -6,6 +6,7 @@ import Taskbar from './components/Taskbar'
 import Readme from './components/Readme'
 import Calculator from './components/Calculator/Calculator'
 import Netflix from './components/Netflix/Netflix'
+import Iframe from './components/Iframe'
 
 function App () {
   const [taskbarApp, setTaskbarApp] = useState()
@@ -15,12 +16,13 @@ function App () {
         <main>
           <Routes>
             <Route path='/*' element={<Desktop />} />
-            <Route path='/readme' element={<Readme setTaskbarApp={setTaskbarApp}/>} />
-            <Route path='/calc' element={<Calculator setTaskbarApp={setTaskbarApp}/>} />
-            <Route path='/netflix/*' element={<Netflix setTaskbarApp={setTaskbarApp}/>} />
+            <Route path='/readme' element={<Readme setTaskbarApp={setTaskbarApp} />} />
+            <Route path='/calc' element={<Calculator setTaskbarApp={setTaskbarApp} />} />
+            <Route path='/netflix/*' element={<Netflix setTaskbarApp={setTaskbarApp} />} />
+            <Route path='/iframe/:url' element={<Iframe />} />
           </Routes>
         </main>
-        <Taskbar taskbarApp={taskbarApp}/>
+        <Taskbar taskbarApp={taskbarApp} />
       </div>
     </div>
   )

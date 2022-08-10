@@ -33,10 +33,10 @@ const Desktop = () => {
        </article>
 
        <article>
-        <a href="https://grand-pastelito-638c86.netlify.app/" target='_blank' rel="noopener noreferrer">
+        <Link to={'/iframe/grand-pastelito-638c86.netlify.app'}>
           <div className='notesIcon'></div>
           <p>Notas Web</p>
-        </a>
+        </Link>
        </article>
 
        <article>
