@@ -40,10 +40,10 @@ const Desktop = () => {
        </article>
 
        <article>
-        <a href="https://youthful-payne-a5cff6.netlify.app/" target='_blank' rel="noopener noreferrer">
+        <Link to={'/iframe/youthful-payne-a5cff6.netlify.app'}>
           <div className='cardsIcon'></div>
           <p>Memory Cards!</p>
-        </a>
+        </Link>
        </article>
 
        <article>
