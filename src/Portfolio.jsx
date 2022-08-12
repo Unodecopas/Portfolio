@@ -19,7 +19,7 @@ function App () {
             <Route path='/readme' element={<Readme setTaskbarApp={setTaskbarApp} />} />
             <Route path='/calc' element={<Calculator setTaskbarApp={setTaskbarApp} />} />
             <Route path='/netflix/*' element={<Netflix setTaskbarApp={setTaskbarApp} />} />
-            <Route path='/iframe/:url' element={<Iframe />} />
+            <Route path='/iframe/:url' element={<Iframe setTaskbarApp={setTaskbarApp}/>} />
           </Routes>
         </main>
         <Taskbar taskbarApp={taskbarApp} />
